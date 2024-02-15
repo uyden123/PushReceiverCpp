@@ -1,5 +1,7 @@
 # FCMReceiverCpp
 
+C++ implementation of [push-receiver](https://github.com/MatthieuLemoine/push-receiver)
+
 FCMReceiverCpp is a Firebase Cloud Messaging (FCM) push notification receiver written in C++. It allows you to register with the FCM server and listen for incoming push notifications.
 
 ## Usage
