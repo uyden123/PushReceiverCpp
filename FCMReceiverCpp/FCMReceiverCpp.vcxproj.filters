@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Others">
+      <UniqueIdentifier>{6fb6d5ed-d576-4881-8f83-f594c8f0be4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others\SecureSocket">
+      <UniqueIdentifier>{317e5fe2-dc33-4833-a0d7-d5edda717312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others\Http_ece">
+      <UniqueIdentifier>{d88e0926-4f61-457e-aac9-32e7d9d2d563}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FCMReceiverCpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mcs.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="android_checkin.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="checkin.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibCurlWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FCMClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FCMRegister.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureSocket\SecureSocket.cpp">
+      <Filter>Others\SecureSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureSocket\Socket.cpp">
+      <Filter>Others\SecureSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureSocket\TCPClient.cpp">
+      <Filter>Others\SecureSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureSocket\TCPServer.cpp">
+      <Filter>Others\SecureSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureSocket\TCPSSLClient.cpp">
+      <Filter>Others\SecureSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureSocket\TCPSSLServer.cpp">
+      <Filter>Others\SecureSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Http_ece\base64url.c">
+      <Filter>Others\Http_ece</Filter>
+    </ClCompile>
+    <ClCompile Include="Http_ece\decrypt.c">
+      <Filter>Others\Http_ece</Filter>
+    </ClCompile>
+    <ClCompile Include="Http_ece\encrypt.c">
+      <Filter>Others\Http_ece</Filter>
+    </ClCompile>
+    <ClCompile Include="Http_ece\keys.c">
+      <Filter>Others\Http_ece</Filter>
+    </ClCompile>
+    <ClCompile Include="Http_ece\params.c">
+      <Filter>Others\Http_ece</Filter>
+    </ClCompile>
+    <ClCompile Include="Http_ece\trailer.c">
+      <Filter>Others\Http_ece</Filter>
+    </ClCompile>
+    <ClCompile Include="Emitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArgumentParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="android_checkin.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="checkin.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mcs.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibCurlWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FCMClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FCMRegister.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureSocket\SecureSocket.h">
+      <Filter>Others\SecureSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureSocket\Socket.h">
+      <Filter>Others\SecureSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureSocket\TCPClient.h">
+      <Filter>Others\SecureSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureSocket\TCPServer.h">
+      <Filter>Others\SecureSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureSocket\TCPSSLClient.h">
+      <Filter>Others\SecureSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureSocket\TCPSSLServer.h">
+      <Filter>Others\SecureSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Http_ece\ece.h">
+      <Filter>Others\Http_ece</Filter>
+    </ClInclude>
+    <ClInclude Include="Http_ece\keys.h">
+      <Filter>Others\Http_ece</Filter>
+    </ClInclude>
+    <ClInclude Include="Http_ece\trailer.h">
+      <Filter>Others\Http_ece</Filter>
+    </ClInclude>
+    <ClInclude Include="Emitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArgumentParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FCMReceiverCpp.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
